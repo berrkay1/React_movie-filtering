@@ -19,6 +19,7 @@ function Filter({setActiveGenre,activeGenre,setFiltered,popular}) {
         <button onClick={()=>setActiveGenre(0)}>All</button>
         <button onClick={()=>setActiveGenre(35)} >Comedy</button>
         <button onClick={()=>setActiveGenre(28)} >Action</button>
+        <button onClick={()=>setActiveGenre(28)} >Action</button>
     </div>
   )
 }
